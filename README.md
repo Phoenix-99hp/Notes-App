@@ -2,7 +2,7 @@
 
 Deployed application: https://agile-lake-97237.herokuapp.com/
 
-This is a note-taking application. Users can write a new note by clicking the pencil icon. The note can then be saved to a sidebar by clicking the save icon. Once the saved notes appear on the sidebar, they can be viewed by clicking on the relevant section of the sidebar,and they can be deleted by clicking the trash icon. 
+This is a note-taking application. Users can write a new note by clicking the pencil icon. The note can then be saved to a sidebar by clicking the save icon. Once the saved notes appear on the sidebar, they can be viewed by clicking on the relevant section of the sidebar, and they can be deleted by clicking the trash icon. 
 
 The application frontend (index.js, styles.css, index.html, and notes.html) was pre-created and required only a couple of minor adjustments by me. My overarching task was to build the application backend and connect the application backend with the pre-existing application frontend. 
 
