@@ -38,11 +38,8 @@ app.post("/api/notes", function (req, res) {
 
         fs.writeFile("db/db.json", JSON.stringify(json), "utf8", (error) => {
             if (error) throw error;
-            console.log("Successfulyy wrote data to db.json");
         })
     })
-
-    console.log(newNote);
 
     return res.json(newNote);
 });
@@ -67,7 +64,6 @@ app.delete("/api/notes/:id", (req, res) => {
 
         fs.writeFile("db/db.json", JSON.stringify(json), "utf8", (error) => {
             if (error) throw error;
-            console.log("Successfulyy deleted note and re-wrote db.json");
         });
 
     })

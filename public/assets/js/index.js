@@ -37,14 +37,12 @@ var renderActiveNote = function () {
   $saveNoteBtn.hide();
 
   if (activeNote.title) {
-    console.log("id");
     $noteTitle.attr("readonly", true);
     $noteText.attr("readonly", true);
     $noteTitle.val(activeNote.title);
     $noteText.val(activeNote.text);
   }
   else {
-    console.log("no id");
     $noteTitle.attr("readonly", false);
     $noteText.attr("readonly", false);
     $noteTitle.val("");
